@@ -59,6 +59,9 @@ const botaoAlterar = novoCard.querySelector('.alterar');
     document.querySelector('#ability').value = '';
     document.querySelector('#imagem').value = '';
 
-
+if (!name || !classe || !ability || !imagem) {
+    alert("Preencha todos os campos, aventureiro.");
+    return;
+}
     
 }
