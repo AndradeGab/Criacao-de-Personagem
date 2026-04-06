@@ -1,4 +1,30 @@
-#card span{
-    display: flex;
+body {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
 
+#base{
+    padding-bottom: 10px;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 600px;
+    background-color: #1f1f1f;
+    color: white;
+    max-width: 1000px;
+}
+
+.personagem {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.personagem img {
+    width: 180px;
 }
